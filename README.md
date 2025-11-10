@@ -15,13 +15,15 @@ Este repositorio busca **unir el mundo del QA y la Ciberseguridad**, creando her
 
 ## ⚙️ Tecnologías y Entorno  
 
-| Área | Tecnologías | Descripción |
-| :--- | :--- | :--- |
-| **Testing Automation** | 🧪 Playwright · Selenium · PyTest | Automatización de pruebas E2E, UI y API. |
-| **Ciberseguridad** | 🔐 OWASP ZAP · Burp Suite · Nmap · Hydra | Escaneo y validación de seguridad automatizada. |
-| **DevOps/CI** | ⚙️ GitHub Actions · Node.js · Bash | Integración continua y pipelines automatizados. |
-| **Reporting** | 📊 Allure · HTML Reports · Logs JSON | Informes dinámicos de resultados de pruebas. |
+<div align="center">
 
+| Área | Herramientas | Descripción |
+| :--- | :---: | :--- |
+| **Testing Automation** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/> | Automatización E2E, UI y API Tests con Playwright, Selenium y PyTest. |
+| **DevOps / CI** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40"/> | Integración continua, pipelines automatizados y ejecución en contenedores. |
+| **Reporting** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" width="40"/> | Generación de informes HTML, Allure Reports y dashboards de resultados. |
+
+</div>
 ---
 
 ## 🚀 Proyectos incluidos  
