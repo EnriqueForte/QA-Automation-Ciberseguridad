@@ -1,0 +1,14 @@
+# Ignorar artefactos y deps en CUALQUIER subcarpeta
+**/node_modules/
+**/playwright-report/
+**/test-results/
+**/test-artifacts/
+**/*.log
+.DS_Store
+
+# Evidencias pesadas (sube PNG/GIF, no los vídeos)
+**/evidence/*.webm
+**/evidence/*.mp4
+
+# Locks (opcional si no quieres subirlos en subproyectos)
+package-lock.json
