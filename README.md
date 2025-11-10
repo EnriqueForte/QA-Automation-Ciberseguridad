@@ -141,4 +141,3 @@ LinkedIn: www.linkedin.com/in/enriqueforte
 =======
 
 `#QA #Automation #Cybersecurity #DevSecOps #Playwright #Selenium #Pentesting #OWASP #Testing #Ciberseguridad`
->>>>>>> ba6b6d9f34e2575bcf6637abf7d796d9d11a13a8
