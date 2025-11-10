@@ -1,0 +1,14 @@
+# Node / Playwright
+node_modules/
+playwright-report/
+test-results/
+test-artifacts/
+package-lock.json
+
+# Logs/OS
+*.log
+.DS_Store
+
+# Evidencias grandes (sube solo seleccionadas)
+evidence/*.webm
+evidence/*.mp4

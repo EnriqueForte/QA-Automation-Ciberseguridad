@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "start:insecure": "cross-env MODE=INSECURE node app/server.js",
+    "start:secure": "cross-env MODE=SECURE   node app/server.js",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "test:insecure": "cross-env MODE=INSECURE playwright test",
+    "test:secure": "cross-env MODE=SECURE   playwright test",
+    "demo:test": "playwright test tests/demo-explain.spec.js --project=chromium",
+    "demo:test:debug": "PWDEBUG=1 playwright test tests/demo-explain.spec.js --project=chromium",
+    "demo:insecure:all": "cross-env MODE=INSECURE start-server-and-test \"node app/server.js\" http://localhost:3000 \"cross-env MODE=INSECURE playwright test tests/demo-explain.spec.js --project=chromium\"",
+    "demo:secure:all": "cross-env MODE=SECURE   start-server-and-test \"node app/server.js\" http://localhost:3000 \"cross-env MODE=SECURE   playwright test tests/demo-explain.spec.js --project=chromium\""
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "cross-env": "^10.1.0",
+    "start-server-and-test": "^2.0.5",
+    "typescript": "^5.9.3",
+    "wait-on": "^8.0.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "csurf": "^1.11.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  }
+}
